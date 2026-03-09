@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spec Loop Dev"
+  short_description: "Spec-driven scaffold and Ralph loop automation"
+  default_prompt: "Set up a spec-first project workflow with traceability checks and autonomous task-loop execution in this repository."
