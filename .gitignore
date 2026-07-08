@@ -16,3 +16,7 @@ tmp/
 *.out
 *.pid
 
+HISTORY.md
+TASKS.md
+history.md
+tasks.md

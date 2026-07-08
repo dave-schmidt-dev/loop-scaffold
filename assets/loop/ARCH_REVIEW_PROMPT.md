@@ -3,7 +3,7 @@
 You are running a final architecture review checkpoint after task/review/audit loop completion.
 
 Goal:
-- Evaluate system-level coherence across `SPEC.md`, `tasks.md`, implementation code, docs, and loop automation.
+- Evaluate system-level coherence across `SPEC.md`, `TASKS.md`, implementation code, docs, and loop automation.
 - Identify cross-cutting design risks that task-level checks might miss.
 
 Scope:

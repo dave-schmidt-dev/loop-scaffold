@@ -12,7 +12,7 @@ Non-negotiable rules:
 - Keep changes minimal and production-quality.
 - Add or update tests needed for the task and bug regressions.
 - Update `HISTORY.md` for meaningful implementation changes.
-- Do not mark tasks complete in `tasks.md`; the orchestrator handles that after a passing check.
+- Do not mark tasks complete in `TASKS.md`; the orchestrator handles that after a passing check.
 - Do not run git commands unless a local `.git` directory exists at the project root.
 
 Execution steps:

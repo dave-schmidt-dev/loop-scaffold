@@ -1,6 +1,6 @@
 ---
 name: spec-loop-dev
-description: Build and operate a spec-driven development workflow with strict traceability and autonomous task-loop execution. Use when a user wants to start a project from scratch with authoritative `SPEC.md` + `tasks.md` + test coverage mapping, or when they want to automate `TASK-###` implementation cycles with Ralph-loop quality gates.
+description: Build and operate a spec-driven development workflow with strict traceability and autonomous task-loop execution. Use when a user wants to start a project from scratch with authoritative `SPEC.md` + `TASKS.md` + test coverage mapping, or when they want to automate `TASK-###` implementation cycles with Ralph-loop quality gates.
 ---
 
 # Spec Loop Dev
@@ -9,7 +9,7 @@ description: Build and operate a spec-driven development workflow with strict tr
 
 ### Step 1: Confirm Scope
 Confirm whether the user wants one or both:
-1. Spec framework generation (`SPEC.md`, `tasks.md`, coverage guardrails).
+1. Spec framework generation (`SPEC.md`, `TASKS.md`, coverage guardrails).
 2. Autonomous task-loop setup (Ralph loop scripts and orchestrator).
 
 If unclear, default to both.
@@ -36,7 +36,7 @@ Rules:
 3. Put approval-gated decisions in a dedicated release/process requirement.
 
 ### Step 4: Generate Traceable Task Backlog
-Create or update `tasks.md` so every task has:
+Create or update `TASKS.md` so every task has:
 1. `TASK-###` ID.
 2. `spec:` with one or more `REQ-###`.
 3. `test:` with at least one concrete selector.
@@ -67,7 +67,7 @@ Run validation and refuse to declare done unless checks pass:
 ## Resource Usage
 
 ### scripts/
-1. `scripts/init_spec_scaffold.sh`: install baseline `SPEC.md`, `tasks.md`, trace tests, and `scripts/spec_guard.py`.
+1. `scripts/init_spec_scaffold.sh`: install baseline `SPEC.md`, `TASKS.md`, trace tests, and `scripts/spec_guard.py`.
 2. `scripts/install_loop.sh`: install `ralph.sh`, `agent.sh`, `reviewer.sh`, `auditor.sh`, prompt files, loop runners, graceful-stop helpers, shared loop-state/process-scan/checkpoint helpers, checklist/status/report/prune utilities, and colorized loop wrappers.
 
 ### references/

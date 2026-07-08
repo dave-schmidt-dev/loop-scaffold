@@ -4,7 +4,7 @@
 
 The repo is designed for two related jobs:
 
-1. Bootstrap a new project with `SPEC.md`, `tasks.md`, traceability tests, and a spec guard.
+1. Bootstrap a new project with `SPEC.md`, `TASKS.md`, traceability tests, and a spec guard.
 2. Install an operator-facing loop that works through `TASK-###` items with explicit review and audit gates.
 
 ## What You Get

@@ -27,6 +27,6 @@ Use this checklist when drafting or reviewing `SPEC.md`.
 5. Release approval and change-control ownership are explicit.
 
 ## Traceability Rules
-1. Every `REQ-###` must map to at least one task in `tasks.md`.
+1. Every `REQ-###` must map to at least one task in `TASKS.md`.
 2. Every `REQ-###` must have at least one test file containing `covers: REQ-###`.
 3. `make check` must fail when traceability is broken.
